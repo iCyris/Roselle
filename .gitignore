@@ -219,3 +219,8 @@ __marimo__/
 
 # Claude Code
 .claude/
+
+# Roselle generated conversion bundles and local runs
+out/
+.roselle/runs/
+test/

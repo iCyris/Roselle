@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "roselle"
+version = "0.1.0"
+description = "Human and agent assisted raster-to-SVG conversion runtime."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "Pillow>=10"
+]
+
+[project.scripts]
+roselle = "roselle.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
