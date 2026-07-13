@@ -10,15 +10,9 @@
   <strong>Turn raster graphics into precise, editable SVG assets.</strong>
 </p>
 
-Roselle is a local raster-to-SVG conversion tool for image-born graphics. It turns PNG, JPG, and WebP files into real SVG assets, then writes a review bundle with previews, metrics, palette data, and a machine-readable manifest.
+Roselle converts PNG, JPG, and WebP graphics into editable SVG assets. It produces a pixel-faithful `final.svg`, a color-grouped `layered.svg` for editing and animation, and a review bundle with previews, metrics, palette data, and a machine-readable manifest.
 
-The core idea is practical: converting a PNG into a useful SVG is more than tracing. The workflow also needs source analysis, color extraction, grouped paths, quality checks, and a report that shows what changed.
-
-Roselle is designed for icons, logos, sketches, diagrams, line art, UI assets, ornamental patterns, and other image-born graphics where fidelity and editability both matter. It can produce a pixel-fidelity SVG for faithful delivery and a layered SVG reference for animation-oriented editing.
-
-Roselle is built for review. A person or AI agent can run the conversion, inspect the manifest, compare before and after previews, review the extracted color groups, and choose the right SVG for the next step.
-
-Within the Fleur tool family, Roselle sits between visual understanding and design production. Iris helps read and interpret visual material. Convallaria helps shape brand and design systems. Roselle restores image-born forms into editable SVG paths.
+Use it for icons, logos, sketches, diagrams, line art, UI assets, and ornamental graphics. Everything runs locally, and both people and AI agents can compare the outputs and choose between exact delivery and an editable reference.
 
 ## What Roselle Does
 
@@ -140,4 +134,4 @@ The result is a restored design asset ready for design systems, websites, apps, 
 
 ## License
 
-MIT — see [LICENSE](LICENSE) for details.
+MIT. See [LICENSE](LICENSE) for details.
